@@ -28,6 +28,11 @@ GEM
       slop (~> 3.4)
     public_suffix (2.0.5)
     rack (2.0.3)
+    rack-gsub (0.1.0)
+      rack-plastic (>= 0.1.1)
+    rack-plastic (0.1.2)
+      nokogiri (>= 1.4.0)
+      rack (>= 1.0.0)
     rack-protection (2.0.0)
       rack
     rack-test (0.6.3)
@@ -68,6 +73,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   pry
+  rack-gsub
   rspec
   sinatra
   sinatra-contrib
