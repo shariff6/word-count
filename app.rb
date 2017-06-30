@@ -7,8 +7,8 @@ get('/') do
     erb(:index)
 end
 
-get('/count') do
+get('/index') do
   word = params.fetch('word')
   @word = params.fetch('letter').word_count(word)
-    erb(:count)
+    erb(:index)
   end

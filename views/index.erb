@@ -1,14 +1,15 @@
 <h1>Welcome to Word Count</h1>
-<form action="/count">
+<form action="/index">
   <div class="form-group">
     <label for="word">What word are you looking for
     </label>
     <input id="word" name="word" class="form-control" type="text">
   </div>
   <div class="form-group">
-    <label for="letter">What word are you looking for
+    <label for="letter">Write your text
     </label>
-    <input id="letter" name="letter" class="form-control" type="text">
+    <textarea id="letter" name="letter" class="form-control" type="text"></textarea>
   </div>
-  <button type="submit" class="btn-success">Send</button>
+  <button type="submit" class="btn btn-success" >Send</button>
 </form>
+<p><%= @word %></p>
