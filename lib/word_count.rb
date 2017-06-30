@@ -3,6 +3,7 @@ class  String
     sentence_split = self.split()
     counter = 0
     sentence_split.each do |letter|
+      word = letter.gsub(/[!,@,?,"",:,;,.]/, "")
       if word == letter
         counter = counter + 1
       end
