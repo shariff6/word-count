@@ -3,11 +3,11 @@ This is an application that checks how many times a word is repeated in a senten
 #### for example,
 **pair** in **pair**-ing it will be counted
 
-##**Setup Instruction**##
+## **Setup Instruction**
  This project can be accessed by going to [this link](https://guarded-tor-19199.herokuapp.com/)
 
-##**Author**##
+## **Author**
 MOHAMMED SHARIFF
 
-##**Licence**##
+## **Licence**
 This project is licenced under The terms of the MIT license
